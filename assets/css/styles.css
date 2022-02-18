@@ -1,0 +1,12 @@
+.header .topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7f7f7f;
+}
+.header .topbar .topbar-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=styles.css.map */

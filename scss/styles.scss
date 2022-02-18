@@ -1,0 +1,14 @@
+.header{
+
+    .topbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #7f7f7f;
+        
+        .topbar-content{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+        }
+    }
+}

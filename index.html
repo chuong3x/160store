@@ -6,22 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=vietnamese" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>160store</title>
 </head>
 <body>
-    <header class="header">
-        <div class="topbar">
-            <div class="topbar-content">
-                <strong>FREESHIP TOÀN QUỐC ĐƠN HÀNG TỪ 500K</strong>
-            </div>
-            <div class="topbar-hotline">
-
-            </div>        
+    <div class="topbar">
+        <div class="topbar-content">
+            <p>FREESHIP TOÀN QUỐC ĐƠN HÀNG TỪ 500K</p>
         </div>
-        <div class="header-container">
-
+        <div class="topbar-hotline">
+            <a class="hotline__phone" href="tel:0798328798">
+                <i class="fa-solid fa-phone fa-2xs fa-shake"></i>
+            </a>
+            <span class="hotline__text">Hotline: 079.832.8798</span>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header-logo">
+            <img class="header-logo__image" src="./assets/images/logo.webp" alt="Logo">
+        </div>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-list-item header-nav-list-item--active">
+                    <a href="/" class="header-nav-list-item__link">TRANG CHỦ</a>
+                </li>
+                <li class="header-nav-list-item header-nav-list-item--dropdown">
+                    <div class="header-nav-list-item__link">
+                        SẢN PHẨM
+                        <div class="header-nav-list-item__link-icon">
+                            <i class="fa-solid fa-angle-down fa-xs"></i>
+                        </div>
+                    </div>
+                    <ul class="header-nav-list-item__menu">
+                        <li class="menu-item"><a class="menu-item-link" href="#">TẤT CẢ SẢN PHẨM</a></li>
+                        <li class="menu-item"><a class="menu-item-link" href="#">SALE OFF 50%</a></li>
+                        <li class="menu-item menu-item--dropright">
+                            <div class="menu-item-link">
+                                ÁO
+                                <div class="menu-item-link__icon">
+                                    <i class="fa-solid fa-angle-right fa-xs"></i>
+                                </div>
+                            </div>
+                            <ul class="sub-menu">
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__item-link">ÁO SƠ MI</a></li>
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__item-link">ÁO THUN</a></li>
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__item-link">ÁO KHOÁC PHAO NATIONAL</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-util">
+            <div class="header-util-user">
+                <div class="header-util-user__icon">
+                    <i class="fa-solid fa-circle-user fa-xl"></i>
+                </div>
+            </div>
+            <div class="header-util-search">
+                <div class="header-util-search__icon">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </div>
+            </div>
+            <div class="header-util-cart">
+                <div class="header-util-cart__icon">
+                    <svg version="1.1" class="svg-cart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 27" style="enable-background:new 0 0 24 27;" xml:space="preserve"> <g> <path d="M0,6v21h24V6H0z M22,25H2V8h20V25z"></path> </g> <g> <path d="M12,2c3,0,3,2.3,3,4h2c0-2.8-1-6-5-6S7,3.2,7,6h2C9,4.3,9,2,12,2z"></path> </g> </svg>
+                    <span class="header-util-cart__counter">0</span>
+                </div>
+            </div>
         </div>
     </header>
 </body>
